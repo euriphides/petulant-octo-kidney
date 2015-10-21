@@ -11,3 +11,5 @@ foundation new project_name --libsass
 cd into new project and:
 grunt build
 grunt
+
+
