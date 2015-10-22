@@ -1,15 +1,15 @@
-for foundation:
+//Make sure you have git, nodejs and ruby installed on your computer.
 
-must have node.js, git, ruby. Then:
+//Then in the terminal window, while cd'd into where you want to install the project:
 
 npm install -g bower grunt-cli
 gem install foundation
 
-Then cd into project directory and:
+//then, where "project_name" is the name of your project:
+
 foundation new project_name --libsass
 
-cd into new project and:
+//now cd into the project folder and:
+
 grunt build
 grunt
-
-
